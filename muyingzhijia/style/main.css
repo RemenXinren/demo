@@ -1,0 +1,131 @@
+/*reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    background: #f3f3f3;
+    font-size: 0.2rem;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*reset*/
+
+
+
+/*header*/
+.header{
+    width: 6.4rem;
+    height: 0.88rem;
+    background: #f60;
+}
+.header a{
+    color: #ffffff;
+}
+.logo{
+    width: 1.2rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    font-size: 0.24rem;
+    float: left;
+    text-align: center;
+    color: #ffffff;
+}
+.search{
+    width: 5rem;
+    height: 0.56rem;
+    float: left;
+    font-size: 0.24rem;
+    background: #ff8c3c;
+    border-radius: 0.08rem;
+    margin-top: 0.16rem;
+    line-height: 0.56rem;
+}
+.search img{
+    width: 0.26rem;
+    height: 0.26rem;
+    vertical-align: middle;
+}
+.search>div{
+    float: left;
+}
+.search .search-1{
+    padding: 0 0.2rem;
+}
+
+/*header*/
+/*footer*/
+.footer{
+    width: 6.4rem;
+    height: 0.92rem;
+    position: fixed;
+    bottom: 0;
+    border-top: 0.01rem solid #d2d2d2;
+    background: #ffffff;
+}
+.footer>div{
+    width: 1.6rem;
+    height: 100%;
+    float: left;
+    font-size: 0.2rem;
+    text-align: center;
+    margin-top: 0.08rem;
+    color: #82737A;
+}
+.footer>div>img{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.orange{
+    color: #f60;
+}
+.pink{
+    color: #e7507b;
+}
+.purple{
+    color: #9A6AD1;
+}
+.blue{
+    color: #009ADC;
+}
+/*footer*/
+
+
+
+

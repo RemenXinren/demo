@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车</title>
+    <link rel="stylesheet" href="../style/main.css">
+    <link rel="stylesheet" href="../style/shoppCart.css">
+</head>
+<body>
+<div class="top">
+    <div class="top-l">
+        <a href="index.html">
+            <img src="../img/fanhui.jpg" alt="">
+        </a>
+    </div>
+    <div class="top-c">
+        购物车
+    </div>
+    <div class="top-r">
+        <a href="javascript:void(0);">编辑</a>
+    </div>
+</div>
+<div class="item-box">
+    <ul class="ibi1" v-for="a in item">
+        <li class="itemb-check">
+            <input type="checkbox" v-model="a.check">
+        </li>
+        <li class="item-info">
+            <div class="item-img">
+                <a href="javascript:void(0);"><img :src="a.img" alt=""></a>
+            </div>
+            <div class="item-txt">
+                <h3>
+                    {{a.txt}}
+                </h3>
+                <div class="num">
+                    <a  @click="reduce($index)">
+                        <img src="../img/reduce.jpg" alt="tu">
+                    </a>
+                    <input type="text" v-model="a.amount">
+                    <a  @click="add($index)">
+                        <img src="../img/add.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="item-p">
+            	￥{{a.price}}
+            </div>
+        </li>
+    </ul>
+</div>
+
+<div class="total-momey">
+    <div class="tm-l">
+        <input type="checkbox" v-on:click="checkAll()" v-model="toggleAll"><span>全选</span>
+    </div>
+    <div class="tm-c">
+        <p>总计：<em>{{price |currency '￥' 2}}</em></p>
+        <p>(不含运费、综合税)</p>
+    </div>
+    <div class="tm-r">
+        去结算
+    </div>
+</div>
+<div class="footer">
+    <div onclick="location.href='index.html'"><img src="../img/m-icon1.png" alt=""><br>首页</div>
+    <div onclick="location.href='menu.html'"><img src="../img/m-icon2.png" alt=""><br>分类</div>
+    <div onclick="location.href='shoppCart.html'"><img src="../img/m-icon3-1.png" alt=""><br><span class="orange">购物车</span></div>
+    <div onclick="location.href='personal.html'"><img src="../img/m-icon4.png" alt=""><br>账户</div>
+</div>
+<script src="../js/auto-size.js"></script>
+<script src="../js/vue.js" type="text/javascript" charset="utf-8"></script>
+<script src="../js/shoppCart.js" type="text/javascript" charset="utf-8"></script>
+</html>

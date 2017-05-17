@@ -1,0 +1,105 @@
+body{
+    background: #FFFFFF;
+}
+a{
+    text-decoration: none;
+}
+/*top */
+.top{
+    width: 6.4rem;
+    height: 0.88rem;
+    margin-top: 0.28rem;
+}
+.top-back{
+    display: block;
+    float: left;
+    width: 1.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.top-back img{
+    vertical-align: middle;
+    height: 0.46rem;
+    margin-left: 0.25rem;
+}
+.top-tit{
+    float: left;
+    width: 3.84rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    font-size: 0.36rem;
+}
+
+/*top */
+.content{
+    width: 6.4rem;
+    height: 4.77rem;
+    margin: 0 0 1rem 0;
+}
+.common-form-box{
+    width: 5.3rem;
+    height: 4.77rem;
+    margin: 0.6rem auto 0;
+}
+.item{
+    width: 5.3rem;
+    height: 1rem;
+    border-bottom: 0.01rem solid #ffb480;
+    position: relative;
+}
+.item input{
+    text-align: center;
+    height: 0.98rem;
+    width: 5.3rem;
+    font-size: 0.28rem;
+    border: none;
+    outline: none;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: #d2d2d2;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #d2d2d2;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #d2d2d2;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #d2d2d2;
+}
+.common-form-box p{
+    font-size: 0.32rem;
+    text-align: center;
+    margin-top: 0.52rem;
+}
+.common-form-box p a{
+    color: #999;
+    font-size: 0.32rem;
+}
+.agree-txt {
+    width: 100%;
+    font-size: 0.24rem;
+    text-align: center;
+    margin: 1.4rem auto 0;
+    line-height: 0.34rem;
+}
+.agree-txt a{
+    color: #fea060;
+}
+    /*复选框美化*/
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: #fff url(../img/checf.jpg);
+    background-size: 0.24rem 0.24rem;
+    height: 0.24rem;
+    vertical-align: middle;
+    width: 0.24rem;
+    margin-right: 0.19rem;
+    outline: none;
+}
+input[type="checkbox"]:checked{
+    background: #fff url(../img/chect.jpg);
+    background-size: 0.24rem 0.24rem;
+}
+/*复选框美化*/

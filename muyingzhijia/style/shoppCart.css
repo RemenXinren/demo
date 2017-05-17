@@ -1,0 +1,197 @@
+/*复选框美化*/
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    background: #fff url(../img/nocheck_pic.png);
+    background-size: 0.37rem 0.37rem;
+    height: 0.37rem;
+    vertical-align: middle;
+    width: 0.37rem;
+    margin-right: 0.19rem;
+    outline: none;
+}
+input[type="checkbox"]:checked{
+    background: #fff url(../img/ckeck_pic.png);
+    background-size: 0.37rem 0.37rem;
+}
+/*复选框美化*/
+
+
+
+.top{
+    width: 6.4rem;
+    height: 0.88rem;
+    background: #f60;
+    font-size: 0.2rem;
+}
+.top .top-l{
+    width: 1.28rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.top .top-l img{
+    width: 0.22rem;
+    height: 0.39rem;
+    vertical-align: middle;
+    margin-left: 0.2rem;
+}
+.top .top-c{
+    width: 3.84rem;
+    height: 0.88rem;
+    color: #ffffff;
+    font-size: 0.36rem;
+    text-align: center;
+    line-height: 0.88rem;
+}
+.top .top-r{
+    width: 1.28rem;
+    height: 0.88rem;
+}
+.top .top-r a{
+    display: block;
+    text-align: center;
+    height: 0.52rem;
+    width: 1rem;
+    line-height: 0.52rem;
+    border-radius: 0.08rem;
+    margin-top: 0.18rem;
+    border: 0.02rem solid #fff;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.top>div{
+    float: left;
+}
+
+.total-momey{
+    width: 6.4rem;
+    height: 0.88rem;
+    position: fixed;
+    bottom: 0.93rem;
+    background: #ffffff;
+}
+.total-momey>div{
+    float: left;
+}
+.total-momey .tm-l{
+    width: 1.16rem;
+    height: 0.88rem;
+    margin-left: 0.19rem;
+    line-height: 0.88rem;
+    color: #787878;
+    font-size: 0.24rem;
+}
+.total-momey .tm-c{
+    width: 2.65rem;
+    height: 0.77rem;
+    padding: 0.11rem 0.23rem 0;
+    line-height: 0.32rem;
+}
+.total-momey .tm-c p:nth-child(1){
+    font-size: 0.26rem;
+}
+.total-momey .tm-c p:nth-child(1) em{
+    color: #f60;
+}
+.total-momey .tm-c p:nth-child(2){
+    font-size: 0.2rem;
+    color: #787878;
+}
+.total-momey .tm-r{
+    width: 1.94rem;
+    height: 0.88rem;
+    background: #f60;
+    color: #ffffff;
+    line-height: 0.88rem;
+    font-size: 0.28rem;
+    text-align: center;
+}
+.item-box{
+    width: 6.4rem;
+    margin-bottom: 1.81rem;
+}
+.ibi1{
+    width: 6rem;
+    height: 1.16rem;
+    padding: 0.292rem 0.194rem;
+    background: #ffffff;
+    border-bottom: 0.05rem solid #f3f3f3;
+}
+.ibi1 li{
+    float: left;
+    font-size: 0.2rem;
+}
+.itemb-check{
+    width: 0.58rem;
+    height: 1.16rem;
+    line-height: 1.16rem;
+}
+.item-info{
+    width: 5.23rem;
+    height: 1.16rem;
+    margin-left: 0.1rem;
+}
+.item-img{
+    width: 1.16rem;
+    height: 1.16rem;
+    padding-right: 0.1rem;
+    float: left;
+}
+.item-img img{
+    width: 100%;
+    height: 100%;
+}
+.item-txt{
+    width: 3rem;
+    height: 1.2rem;
+    float: left;
+}
+.item-txt h3{
+    width: 3rem;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    color: #414141;
+    overflow: hidden;
+    line-height: 0.32rem;
+}
+.item-txt>div{
+	width: 1.24rem;
+	height: 0.32rem;
+	background: #FFDEAD;
+	margin-top: 0.15rem;
+}
+.item-txt>div img{
+	width: 0.32rem;
+	height: 0.32rem;
+	float: left;
+}
+.item-txt>div input{
+	width: 0.6rem;
+	height: 0.3rem;
+	border: none;
+	float: left;
+	outline: none;
+	text-align: center;
+}
+.item-p{
+	width: 0.8rem;
+	float: right;
+	text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
