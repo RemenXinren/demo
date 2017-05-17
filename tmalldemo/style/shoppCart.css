@@ -1,0 +1,589 @@
+/*.deletemaik{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.3);
+	position: relative;
+	z-index: 10;
+	left: 0;
+	top: 0;
+}
+.deletemaik .deletecue{
+	width: 380px;
+	height: 150px;
+}*/
+
+
+.point{
+    display: inline;
+    position: absolute;
+    top: 14px;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid dashed dashed;
+    border-color: #bbb transparent transparent;
+    font-size: 0;
+    line-height: 0;
+    transition: transform 0.5s;
+    margin-left: 3px;
+}
+/*top*/
+.top{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background: #f2f2f2;
+    color: #999;
+    font-size: 12px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.top img{
+    margin-right: 5px;
+}
+.top>.wp>ul>li{
+    float: left;
+    padding: 0 10px;
+}
+.top ul .more{
+    position: relative;
+}
+.top ul .more>ul a{
+    color: #666;
+}
+.top ul .more a:hover{
+    text-decoration: underline;
+    color: #c40000;
+}
+.top ul .more ul{
+    display: none;
+    position: absolute;
+    background: #ffffff;
+    z-index: 5;
+    border: 1px solid #eee;
+    border-top: none;
+    padding: 0 10px;
+}
+.top ul .more .mytao{
+    width: 80px;
+    left: 0;
+}
+.top ul .more .favorite{
+    width: 60px;
+    left: 0;
+}
+.top ul .more .plunk-for{
+    width: 122px;
+    right: 0;
+}
+.top ul .more .plunk-for>li{
+    padding: 10px 0;
+    border-bottom: 1px dotted #827777;
+}
+.top ul .more .plunk-for>li>a{
+    margin-right: 10px;
+}
+.top ul .more .navb-r{
+    right: 0;
+    padding-top: 25px;
+    width: 1150px;
+    height: 250px;
+}
+.top ul .more .navb-r dt{
+    position: relative;
+}
+.top ul .more .navb-r img{
+    position: absolute;
+    top: 3px;
+}
+.top ul .more .navb-r .navb-hot{
+    width: 273px;
+    float: left;
+    padding-left: 30px;
+}
+.top ul .more .navb-r .navb-hot a:hover{
+    color: #f56a00;
+}
+.top ul .more .navb-r .navb-hot h3{
+    font-size: 16px;
+    color: #f56a00;
+}
+.top ul .more .navb-r .navb-hot dl>dt{
+    width: 91px;
+    float: left;
+}
+.top ul .more .navb-r .navb-market{
+    width: 364px;
+    float: left;
+    padding-left: 30px;
+}
+.top ul .more .navb-r .navb-market a:hover{
+    color: #2263d4;
+}
+.top ul .more .navb-r .navb-market h3{
+    font-size: 16px;
+    color: #2263d4;
+}
+.top ul .more .navb-r .navb-market dl>dt{
+    width: 91px;
+    float: left;
+}
+.top ul .more .navb-r .navb-brand{
+    width: 273px;
+    float: left;
+    padding-left: 30px;
+}
+.top ul .more .navb-r .navb-brand a:hover{
+    color: #000;
+}
+.top ul .more .navb-r .navb-brand h3{
+    font-size: 16px;
+    color: #000000;
+}
+.top ul .more .navb-r .navb-brand dl>dt{
+    width: 91px;
+    float: left;
+}
+.top ul .more .navb-r .navb-help{
+    width: 120px;
+    float: left;
+    padding-left: 30px;
+}
+.top ul .more .navb-r .navb-help a:hover{
+    color: #666666;
+}
+.top ul .more .navb-r .navb-help h3{
+    font-size: 16px;
+    color: #666666;
+}
+.bold{
+    color: #666;
+    font-weight: bold;
+}
+.top ul .more:hover{
+    background: #fff;
+}
+.top ul .more:hover .point{
+    transform:rotate(180deg);
+}
+.top ul .more:hover ul{
+    display: block;
+}
+
+.top a {
+    color: #999999;
+}
+.top a:hover{
+    color: #c40000;
+}
+/*top*/
+
+/*logoandso*/
+.logoandso{
+	height: 130px;
+
+}
+.logoandso .wp .lshr{
+	height: 130px;
+    border-bottom: 2px solid #e5e5e5;
+}
+.logo{
+	width: 240px;
+	height: 130px;
+	float: left;
+}
+.indextit{
+	width: 130px;
+	height: 130px;
+	line-height: 130px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	color: #3C3C3C;
+}
+.search{
+	width: 520px;
+	height: 130px;
+	float: right;
+}
+.search .search-c{
+	width: 514px;
+	height: 32px;
+	border: 3px solid #C40000;
+	margin-top: 50px;
+}
+.search .search-c>div{
+	float: left;
+}
+.search .search-c .search-tit{
+	width: 75px;
+	height: 32px;
+	background: #F5F5F5;
+	line-height: 32px;
+	text-align: center;
+}
+.search .search-c .search-txt{
+	width: 340px;
+	height: 32px;
+}
+.search .search-c .search-txt input{
+	width: 340px;
+	height: 30px;
+	border: none;
+	outline: none;
+}
+.search .search-c .search-button{
+	width: 99px;
+	height: 32px;
+}
+.search .search-c .search-button button{
+	width: 99px;
+	height: 32px;
+	background: #C40000;
+	border: none;
+	color: #FFFFFF;
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+/*logoandso*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*gouwuche*/
+.mian{
+	width: 1230px;
+	margin: 0 auto;
+}
+.m-top{
+	height: 50px;
+}
+.m-top>div{
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	font-size: 12px;
+}
+.option{
+	width: 80px;
+
+}
+.inner{
+	width: 485px;
+	padding-left: 75px;
+
+}
+.price{
+	width: 150px;
+}
+.amount{
+	width: 140px;
+
+}
+.sum{
+	width: 160px;
+
+}
+.op{
+	width: 140px;
+
+}
+
+
+
+
+.shop-info>ul{
+	width: 1220px;
+	height: 100px;
+	padding: 10px 0px 10px 10px;
+
+}
+.shop-info>ul>li{
+	float: left;
+	list-style: none;
+	height: 80px;
+	
+}
+.shop-img{
+	width: 80px;
+
+	margin-left: 25px;
+}
+.shop-img img{
+	width: 80px;
+	height: 80px;
+}
+.shop-inner{
+	width: 485px;
+
+	margin-left: 20px;
+	line-height: 80px;
+}
+.shop-inner a{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+.shop-inner a:hover{
+	text-decoration: underline;
+	color: #c40000;
+}
+
+.shop-price{
+	width: 150px;
+
+	color: #000000;
+	font-weight: bold;
+	line-height: 80px;
+}
+.shop-amount{
+	width: 140px;
+
+}
+.shop-amount input{
+	width: 40px;
+	height: 18px;
+	text-align: center;
+	margin-top: 30px;
+}
+.shop-amount button{
+	border: none;
+	cursor: pointer;
+	height: 22px;
+	border: 1px solid #ffffff;
+}
+.shop-amount button:hover{
+	color: #c40000;
+	border: 1px solid #f40;
+}
+.shop-sum{
+	width: 160px;
+
+	line-height: 80px;
+	color: #c40000;
+	font-weight: bold;
+}
+.shop-op{
+	width: 140px;
+	
+}
+.shop-op a{
+	color: #000;
+	text-decoration: none;
+	font-size: 12px;
+}
+.shop-op a:hover{
+	text-decoration: underline;
+	color: #c40000;
+}
+
+.bottom{
+	height: 50px;
+	background: #e5e5e5;
+	line-height: 50px;
+	font-size: 12px;
+}
+.bottom>div{
+	height: 50px;
+}
+.bottom .bot-l{
+	float: left;
+}
+.bottom .bot-l a{
+	color: #3c3c3c;
+	text-decoration: none;
+}
+.bottom .bot-l a:hover{
+	text-decoration: underline;
+	color: #c40000;
+}
+.bottom .bot-l>div ,.bottom .bot-r>div{
+	float: left;
+	padding: 0 20px;
+	cursor: pointer;
+	text-align: center;
+}
+.bottom .bot-r{
+	float: right;
+}
+#selectedTotal{
+	font-size: 18px;
+	font-weight: bold;
+	color: #c40000;
+}
+#priceTotal{
+	font-size: 18px;
+	color: #c40000;
+	font-weight: bold;
+}
+.jiesuan{
+	width: 120px;
+	height: 50px;
+	background: #c40000;
+	color: #FFFFFF;
+	font-size: 24px;
+}
+/*gouwuche*/
+/**/
+
+
+
+/*猜你喜欢*/
+.love{
+    width: 100%;
+    background: #f5f5f5;
+    border-bottom: 1px solid #D1D7DC;
+}
+.love-tit{
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+    margin: 10px 0;
+}
+.love-tit img{
+    vertical-align: middle;
+}
+.love-tit .duanxian{
+    display: inline-block;
+    margin: 0 5px;
+    width: 30px;
+    height: 1px;
+    vertical-align: middle;
+    background: #979797;
+}
+.love-con ul{
+    height: 333px;
+}
+.love-con li{
+    float: left;
+    width: 235px;
+    height: 333px;
+    margin-right: 9px;
+    margin-bottom: 7px;
+    border: 1px solid #FFFFFF;
+}
+.love-con li:hover{
+    border-color: red;
+}
+.love-con li:hover a>img{
+    opacity: 0.8;
+}
+.love-con li a .l-li-con {
+    font-size: 13px;
+    padding: 13px;
+    color: #666666;
+}
+.love-con li a .l-li-jiage{
+    font-size: 16px;
+    color: red;
+    line-height: 32px;
+    padding-left: 13px;
+}
+.love-con li>a>img{
+    width: 235px;
+    height: 235px;
+    transition: opacity 0.5s;
+}
+.love-end{
+    padding-top: 10px;
+    height: 65px;
+}
+.love-end .love-b-e{
+    width: 80px;
+    height: 45px;
+    margin: 0 auto;
+    line-height: 45px;
+    border-radius: 15px;
+    border: 3px solid #e2e2e2;
+    text-align: center;
+    font-size: 24px;
+    color: #e2e2e2;
+}
+/*猜你喜欢*/
+/*footer*/
+.footer{
+    width: 100%;
+}
+.footer .tmall-ensure{
+    height: 100px;
+    margin: 30px 0;
+    background: url("../img/tmall-ensure.png") no-repeat center;
+}
+.footer .tmall-ensure a{
+    float: left;
+    display: block;
+    width: 297px;
+    height: 100px;
+}
+.footer .tmall-desc{
+    height: 183px;
+    padding-top: 30px;
+    border-top: 1px solid #D1D7DC;
+}
+
+.tmall-desc .td-li{
+    float: left;
+    width: 186px;
+    padding-left: 52px;
+}
+.tmall-desc .td-li h3{
+    color: #646464;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.tmall-desc .td-li a{
+    width: 100px;
+    overflow: hidden;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    color: #8b8b8b;
+    font-size: 13px;
+}
+.footer .bottom{
+    width: 100%;
+    height: 180px;
+    background: #000000;
+    border-top: 2px solid red;
+    font-size: 12px;
+    color: #686868;
+}
+.bottom .wp>p{
+    line-height: 40px;
+
+}
+.bottom .wp>p>a{
+    color: #FFFFFF;
+}
+.bottom .f-b-b p{
+    line-height: 20px;
+}
+.bottom .f-b-b p img{
+    vertical-align: middle;
+}
+.bottom .f-b-b p a{
+    color: #686868;
+    margin-right: 50px;
+
+}
+
+
+
+/*footer*/

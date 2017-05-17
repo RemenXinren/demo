@@ -1,0 +1,255 @@
+.wp-2{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    height: 88px;
+}
+.header .logo{
+    width: 190px;
+    height: 88px;
+    float: left;
+}
+.header .hd-1{
+    width: 100px;
+    float: left;
+    line-height: 88px;
+    color: #6c6c6c;
+    font-size: 18px;
+}
+.header .hd-2{
+    float: right;
+    margin-top: 70px;
+}
+.header .hd-2 a{
+    color: #000000;
+    font-size: 14px;
+}
+
+
+
+.center{
+    width: 100%;
+    height: 360px;
+}
+.center .enroll{
+    border-top: 3px solid #c40000;
+
+}
+.center .enroll .en-form{
+    width: 380px;
+    height: 280px;
+    margin: 0 auto;
+}
+.username{
+	width: 380px;
+	height: 38px;
+	margin-top: 10px;
+	border: 1px solid #999999;
+}
+.username .en-title , .username .un-input{
+	float: left;
+}
+.username .en-title{
+	width: 76px;
+    padding-left: 11px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+}
+ .username .un-input{
+ 	width: 291px;
+ 	height: 38px;
+ 	position: relative;
+ }
+ .username .un-input input{
+ 	width: 291px;
+ 	height: 36px;
+ 	border: none;
+ 	outline: none;
+ 	background: 0;
+ }
+.username .un-input label{
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	line-height: 38px;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.un-cue{
+	height: 27px;
+	line-height: 27px;
+	font-size: 12px;
+	color: red;
+	visibility: hidden;
+}
+
+.un-code{
+	width: 380px;
+	height: 38px;
+	border: 1px solid #999999;
+}
+.un-code .en-title , .un-code .uc-input , .un-code .uc-button{
+	float: left;
+}
+.un-code .en-title{
+	width: 76px;
+    padding-left: 11px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+}
+.un-code .uc-input{
+	width: 142px;
+ 	height: 38px;
+ 	position: relative;
+}
+.un-code .uc-input input{
+	width: 142px;
+ 	height: 36px;
+ 	outline: none;
+ 	border: none;
+ 	background: 0;
+}
+.un-code .uc-input label{
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 12px;
+	color: #666666;
+	line-height: 38px;
+	z-index: -1;
+}
+.un-code .uc-button{
+	display: block;
+	width: 149px;
+	height: 38px;
+	line-height: 38px;
+	border-left: 1px solid #999999;
+	text-align: center;
+	color: #000000;
+}
+.un-code .uc-button:hover{
+	color: #C40000;
+}
+.uc-cue{
+	font-size: 12px;
+	color: #666666;
+	visibility: hidden;
+}
+.uc-cue a{
+	color: #DD2727;
+}
+.passwd{
+	width: 380px;
+	height: 38px;
+	border: 1px solid #999999;
+}
+.passwd .pd-title , .passwd .pd-input{
+	float: left;
+}
+.passwd .pd-title{
+	width: 76px;
+    padding-left: 11px;
+    height: 38px;
+    line-height: 38px;
+    font-size: 12px;
+}
+.passwd .pd-input{
+	width: 291px;
+ 	height: 38px;
+ 	position: relative;
+}
+.passwd .pd-input input{
+	width: 291px;
+ 	height: 36px;
+ 	border: none;
+ 	outline: none;
+ 	background: 0;
+}
+.passwd .pd-input label{
+	font-size: 12px;
+	color: #666666;
+	position: absolute;
+	line-height: 38px;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+.pd-cue{
+	height: 27px;
+	line-height: 27px;
+	font-size: 12px;
+	color: red;
+	visibility: hidden;
+}
+
+
+.items a{
+	line-height: 30px;
+	color: #000000;
+	font-size: 12px;
+}
+.submit{
+	width: 380px;
+	height: 38px;
+}
+.submit button{
+	width: 380px;
+	height: 38px;
+	border: none;
+	background: #C40000;
+	color: #FFFFFF;
+	font-size: 20px;
+	text-align: center;
+	line-height: 38px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .bottom{
+    width: 100%;
+    height: 180px;
+    font-size: 12px;
+    color: #686868;
+}
+.bottom .wp-2>p{
+    line-height: 40px;
+
+}
+.bottom .wp-2>p>a{
+    color: #000000;
+}
+.bottom .f-b-b p{
+    line-height: 20px;
+}
+.bottom .f-b-b p img{
+    vertical-align: middle;
+}
+.bottom .f-b-b p a{
+    color: #686868;
+    margin-right: 50px;
+
+}

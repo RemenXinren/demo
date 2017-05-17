@@ -1,0 +1,130 @@
+.header{
+    width: 100%;
+    height: 88px;
+}
+.center{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(235, 174, 79);
+}
+.center .cen-main{
+    width: 100%;
+    height: 600px;
+    background: url("../img/marin.png") no-repeat center;
+}
+.center .cen-main .c-m-ad{
+    display: block;
+    width: 630px;
+    height: 440px;
+    float: left;
+}
+.center .cen-main .login{
+    width: 350px;
+    height: 404px;
+    background: #FFFFFF;
+    float: right;
+    margin-top: 100px;
+}
+.center .cen-main .login .static-form{
+    width: 300px;
+    height: 260px;
+    margin: 40px auto;
+}
+.center .cen-main .login .static-form .login-title{
+    height: 18px;
+    line-height: 18px;
+    font-size: 16px;
+    color: #3c3c3c;
+    margin-top: 9px;
+    padding-bottom: 8px;
+    font-weight: 700;
+}
+.center .cen-main .login .static-form>form>a{
+    display: block;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 40px;
+    background: #AF0000;
+    text-align: center;
+}
+.center .cen-main .login .static-form .username-field{
+    margin-top: 25px;
+}
+.center .cen-main .login .static-form .field{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #999999;
+}
+.center .cen-main .login .static-form .cue{
+    width: 300px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: red;
+    visibility: hidden;
+}
+.center .cen-main .login .static-form .field input{
+    float: right;
+    width: 255px;
+    margin-top: 7px;
+    height: 20px;
+    border: none;
+    outline: none;
+    color: #666666;
+}
+.center .cen-main .login .static-form button{
+    cursor: pointer;
+    border: none;
+
+}
+.center .cen-main .login .static-form .login-links{
+    text-align: right;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.center .cen-main .login .static-form .login-links a{
+    color: #6c6c6c;
+    margin-right: 20px;
+}
+.center .cen-main .login .static-form .login-links a:hover{
+    color: #c40000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer .bottom{
+    width: 100%;
+    height: 180px;
+    font-size: 12px;
+    color: #686868;
+}
+.bottom .wp>p{
+    line-height: 40px;
+
+}
+.bottom .wp>p>a{
+    color: #000000;
+}
+.bottom .f-b-b p{
+    line-height: 20px;
+}
+.bottom .f-b-b p img{
+    vertical-align: middle;
+}
+.bottom .f-b-b p a{
+    color: #686868;
+    margin-right: 50px;
+
+}

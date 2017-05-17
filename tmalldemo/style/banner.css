@@ -1,0 +1,91 @@
+
+.banner{
+    height: 496px;
+    position: relative;
+}
+#boxImg ul li{
+    width: 1190px;
+    height: 496px;
+    position: absolute;
+    display: none;
+}
+#boxImg ul li>div{
+    width: 1190px;
+    height: 496px;
+    background-size: 1130px 496px;
+}
+
+#boxImg ul .img-1{
+    background: url("../img/banner1.jpg") center no-repeat;
+}
+#boxImg ul .img-2{
+    background: url("../img/banner2.jpg") center no-repeat;
+}
+#boxImg ul .img-3{
+    background: url("../img/banner3.jpg") center no-repeat;
+}
+#boxImg ul .img-4{
+    background: url("../img/banner4.jpg") center no-repeat;
+}
+#boxImg ul .img-5{
+    background: url("../img/banner5.jpg") center no-repeat;
+}
+#boxImg ul .img-6{
+    background: url("../img/banner6.jpg") center no-repeat;
+}
+
+#boxImg ul li>div>a{
+    display: block;
+    width: 760px;
+    height: 496px;
+    margin-left: 200px;
+    float: left;
+}
+#boxImg ul li .sBanner{
+    width: 220px;
+    height: 508px;
+    float: right;
+}
+#boxImg ul li .sBanner img{
+    width: 220px;
+    height: 234px;
+    margin: 5px 0;
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
+#boxImg ul li .sBanner img:hover{
+    opacity: 1;
+}
+#boxImg ul .topImg{
+    display: block;
+}
+#boxImg li img{
+    width: 1190px;
+    height: 496px;
+}
+#boxImg>div{
+    width: 192px;
+    height: 22px;
+    position: absolute;
+    bottom:10px;
+    text-align:center;
+    z-index: 2;
+    left: 499px;
+}
+#boxImg div span{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: rgba(0,0,0,0.4);
+    color:red;
+    border-radius:50%;
+    cursor: pointer;
+    float: left;
+    margin: 0 5px;
+}
+#boxImg div .on{
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(0,0,0,0.5);
+    background: rgba(255,255,255,0.5);
+}
